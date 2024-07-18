@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CONSULT - Consultancy Website Template</title>
+    <title>About us</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -58,20 +58,98 @@
     <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-        <a href="index.html" class="navbar-brand p-0">
-            <h1 class="m-0 text-uppercase text-primary"><i class="far fa-smile text-primary me-2"></i>consult</h1>
+     <!-- Navbar Start -->
+     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand p-0" style="background-color: #F3525A !important;">
+            <!-- <h1 class="m-0 text-uppercase text-primary">
+                <img class="img-fluid" src="img/peopletechlogo.png" alt="">
+                <i class="far fa-smile text-primary me-2"></i>consult</h1> -->
+
+                <img class="img-fluid p-2" src="img/peopletechlogo.png" alt="" width="180" height="160">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0 me-n3">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <div class="nav-item dropdown">
+                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="about.html" class="nav-item nav-link ">About</a>
+                <!-- <a href="service.html" class="nav-item nav-link active">Service</a> -->
+                
+                <div class="nav-item dropdown" id="myDropdown">
+                    <a class="nav-link dropdown-toggle active" href="service.html" data-bs-toggle="dropdown">  Service  </a>
+                    <ul class="dropdown-menu">
+                      
+                      <li> <a class="dropdown-item" href="service.html"> Enterprise Solutions &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="workday.html">Workday</a></li>
+                          <li><a class="dropdown-item" href="salesforce.html">Salesforce</a></li>
+                          
+                          <li><a class="dropdown-item" href="peoplesoft.html">PeopleSoft</a></li>
+                          <li><a class="dropdown-item" href="mulesoft.html">MuleSoft</a></li>
+                          <li><a class="dropdown-item" href="ukgkronos.html">UKG Kronos</a></li>
+                          <li><a class="dropdown-item" href="uipath.html">UI Path</a></li>
+                        </ul>
+                      </li>
+                      <li> <a class="dropdown-item" href="clouddata.html"> Cloud and Data &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="infrastructure.html">Infrastructure</a></li>
+                          <li><a class="dropdown-item" href="migration.html">Migration</a></li>
+                          
+                          <li><a class="dropdown-item" href="modernization.html">Modernization</a></li>
+                          <li><a class="dropdown-item" href="analytics.html">Analytics</a></li>
+                          <li><a class="dropdown-item" href="ai.html">AI</a></li>
+                          <li><a class="dropdown-item" href="#">AI-Enablement</a></li>
+                          <li><a class="dropdown-item" href="#">IOT</a></li>
+                        </ul>
+                      </li>
+                      <li> <a class="dropdown-item" href="#"> Product Engineering &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Human Machine Interface</a></li>
+                          <li><a class="dropdown-item" href="#">UX</a></li>
+                          
+                          <li><a class="dropdown-item" href="#">MVP Development</a></li>
+                          <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                          <li><a class="dropdown-item" href="#">QA and Validation</a></li>
+                          <li><a class="dropdown-item" href="#">MObile</a></li>
+                          
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                </div>
+                <div class="nav-item dropdown" id="myDropdown">
+                    <a class="nav-link dropdown-toggle " href="service.html" data-bs-toggle="dropdown">  Platforms  </a>
+                    <ul class="dropdown-menu">
+                      
+                      <li> <a class="dropdown-item" href="#"> Microsoft &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Data centers</a></li>
+                          <li><a class="dropdown-item" href="#">Application Development</a></li>
+                          
+                          <li><a class="dropdown-item" href="#">Cloud Services</a></li>
+                          <li><a class="dropdown-item" href="#">Data Platform</a></li>
+                          <li><a class="dropdown-item" href="#">Security</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li> <a class="dropdown-item" href="#"> AWS &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Big data</a></li>
+                          <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                          
+                          <li><a class="dropdown-item" href="#">Cloud Migration</a></li>
+                          <li><a class="dropdown-item" href="#">Devops Automation</a></li>
+                          <li><a class="dropdown-item" href="#">Database Migration</a></li>
+                          <li><a class="dropdown-item" href="#">Data Analytics</a></li>
+                          
+                        </ul>
+                      </li>
+                      
+                      
+                    </ul>
+                </div>
+                  <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
                         <a href="blog.html" class="dropdown-item">Blog Grid</a>
@@ -82,6 +160,7 @@
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                     </div>
                 </div>
+                <a href="#" class="nav-item nav-link">Industries</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -103,14 +182,14 @@
     <!-- Page Header End -->
 
 
-    <!-- About Start -->
-    <div class="container-fluid bg-secondary p-0">
+     <!-- About Start -->
+     <div class="container-fluid bg-secondary p-0">
         <div class="row g-0">
             <div class="col-lg-6 py-6 px-5">
-                <h1 class="display-5 mb-4">Welcome To <span class="text-primary">CONSULT</span></h1>
-                <h4 class="text-primary mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4>
-                <p class="mb-4">Et stet ipsum nonumy rebum eos justo, accusam invidunt aliquyam stet magna at et sanctus, vero sea sit amet dolores, sit dolor duo invidunt dolor, kasd rebum consetetur diam invidunt erat stet. Accusam nonumy lorem kasd eirmod. Justo clita sadipscing ea invidunt rebum sadipscing consetetur. Amet diam amet amet sanctus sanctus invidunt erat ipsum eirmod.</p>
-                <a href="" class="btn btn-primary py-md-3 px-md-5 rounded-pill">Get A Quote</a>
+                <h3 class="display-5 mb-4">Welcome To <span class="text-primary">People Tech Solutions PVT.LTD</span></h3>
+                <!-- <h4 class="text-primary mb-4">Diam dolor diam ipsum sit. Clita erat ipsum et lorem stet no lorem sit clita duo justo magna dolore</h4> -->
+                <p class="mb-4">your trusted partner in innovative IT solutions. Established in 2010, we have been at the forefront of delivering cutting-edge technology services and solutions to businesses of all sizes. Our mission is to empower organizations with the tools and expertise they need to thrive in today’s fast-paced digital landscape.</p>
+                <a href="#" class="btn btn-primary py-md-3 px-md-5 rounded-pill">Contact us</a>
             </div>
             <div class="col-lg-6">
                 <div class="h-100 d-flex flex-column justify-content-center bg-primary p-5">
@@ -119,8 +198,8 @@
                             <i class="fa fa-user-tie fs-4"></i>
                         </div>
                         <div class="ps-4">
-                            <h3>Business Planning</h3>
-                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+                            <h3>Enterprise Solutions</h3>
+                            <p class="mb-0">we offer a comprehensive suite of enterprise solutions designed to meet the complex and evolving needs of large organizations. Our solutions help you streamline operations, enhance productivity, and drive innovation across your enterprise. Here’s how we can empower your business</p>
                         </div>
                     </div>
                     <div class="d-flex text-white mb-5">
@@ -128,8 +207,8 @@
                             <i class="fa fa-chart-line fs-4"></i>
                         </div>
                         <div class="ps-4">
-                            <h3>Financial Analaysis</h3>
-                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+                            <h3>Cloud and Data</h3>
+                            <p class="mb-0">Cloud and Data solutions that empower businesses to innovate, scale, and stay competitive in today’s digital landscape. Our services ensure that your data is secure, accessible, and optimally managed while leveraging the power of the cloud to enhance your operational efficiency.</p>
                         </div>
                     </div>
                     <div class="d-flex text-white">
@@ -137,8 +216,8 @@
                             <i class="fa fa-balance-scale fs-4"></i>
                         </div>
                         <div class="ps-4">
-                            <h3>legal Advisory</h3>
-                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
+                            <h3>Product Engineering</h3>
+                            <p class="mb-0">product engineering services that help businesses innovate and stay ahead in a competitive market. Our team of skilled engineers and designers work collaboratively to bring your vision to life, ensuring high-quality products that meet market demands and exceed customer expectations.</p>
                         </div>
                     </div>
                 </div>

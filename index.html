@@ -58,8 +58,8 @@
     <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+     <!-- Navbar Start -->
+     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
         <a href="index.html" class="navbar-brand p-0" style="background-color: #F3525A !important;">
             <!-- <h1 class="m-0 text-uppercase text-primary">
                 <img class="img-fluid" src="img/peopletechlogo.png" alt="">
@@ -72,10 +72,84 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0 me-n3">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <div class="nav-item dropdown">
+                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="about.html" class="nav-item nav-link ">About</a>
+                <!-- <a href="service.html" class="nav-item nav-link active">Service</a> -->
+                
+                <div class="nav-item dropdown" id="myDropdown">
+                    <a class="nav-link dropdown-toggle active" href="service.html" data-bs-toggle="dropdown">  Service  </a>
+                    <ul class="dropdown-menu">
+                      
+                      <li> <a class="dropdown-item" href="service.html"> Enterprise Solutions &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="workday.html">Workday</a></li>
+                          <li><a class="dropdown-item" href="salesforce.html">Salesforce</a></li>
+                          
+                          <li><a class="dropdown-item" href="peoplesoft.html">PeopleSoft</a></li>
+                          <li><a class="dropdown-item" href="mulesoft.html">MuleSoft</a></li>
+                          <li><a class="dropdown-item" href="ukgkronos.html">UKG Kronos</a></li>
+                          <li><a class="dropdown-item" href="uipath.html">UI Path</a></li>
+                        </ul>
+                      </li>
+                      <li> <a class="dropdown-item" href="clouddata.html"> Cloud and Data &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="infrastructure.html">Infrastructure</a></li>
+                          <li><a class="dropdown-item" href="migration.html">Migration</a></li>
+                          
+                          <li><a class="dropdown-item" href="modernization.html">Modernization</a></li>
+                          <li><a class="dropdown-item" href="analytics.html">Analytics</a></li>
+                          <li><a class="dropdown-item" href="ai.html">AI</a></li>
+                          <li><a class="dropdown-item" href="#">AI-Enablement</a></li>
+                          <li><a class="dropdown-item" href="#">IOT</a></li>
+                        </ul>
+                      </li>
+                      <li> <a class="dropdown-item" href="#"> Product Engineering &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Human Machine Interface</a></li>
+                          <li><a class="dropdown-item" href="#">UX</a></li>
+                          
+                          <li><a class="dropdown-item" href="#">MVP Development</a></li>
+                          <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                          <li><a class="dropdown-item" href="#">QA and Validation</a></li>
+                          <li><a class="dropdown-item" href="#">MObile</a></li>
+                          
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                </div>
+                <div class="nav-item dropdown" id="myDropdown">
+                    <a class="nav-link dropdown-toggle " href="service.html" data-bs-toggle="dropdown">  Platforms  </a>
+                    <ul class="dropdown-menu">
+                      
+                      <li> <a class="dropdown-item" href="#"> Microsoft &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Data centers</a></li>
+                          <li><a class="dropdown-item" href="#">Application Development</a></li>
+                          
+                          <li><a class="dropdown-item" href="#">Cloud Services</a></li>
+                          <li><a class="dropdown-item" href="#">Data Platform</a></li>
+                          <li><a class="dropdown-item" href="#">Security</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li> <a class="dropdown-item" href="#"> AWS &raquo; </a>
+                        <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Big data</a></li>
+                          <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                          
+                          <li><a class="dropdown-item" href="#">Cloud Migration</a></li>
+                          <li><a class="dropdown-item" href="#">Devops Automation</a></li>
+                          <li><a class="dropdown-item" href="#">Database Migration</a></li>
+                          <li><a class="dropdown-item" href="#">Data Analytics</a></li>
+                          
+                        </ul>
+                      </li>
+                      
+                      
+                    </ul>
+                </div>
+                  <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
                         <a href="blog.html" class="dropdown-item">Blog Grid</a>
@@ -86,6 +160,7 @@
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                     </div>
                 </div>
+                <a href="#" class="nav-item nav-link">Industries</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
         </div>

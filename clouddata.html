@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Services</title>
+    <title>Cloud and Data</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -29,7 +29,29 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+<style>
+    @media all and (min-width: 992px) {
+	.dropdown-menu li{ position: relative; 	}
+	.nav-item .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.nav-item .submenu-left{ 
+		right:100%; left:auto;
+	}
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{ display: block; }
+}	
+/* ============ desktop view .end// ============ */
 
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu{
+      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+  }
+}
+</style>
 <div>
     <!-- Topbar Start -->
     <div class="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
@@ -172,7 +194,7 @@
     <div class="container-fluid bg-dark p-5">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="display-4 text-white">Services</h1>
+                <h1 class="display-4 text-white">Cloud and Data</h1>
                 <a href="">Home</a>
                 <i class="far fa-square text-primary px-2"></i>
                 <a href="">Services</a>
@@ -182,28 +204,28 @@
     <!-- Page Header End -->
 
 
-    <!-- service  Start -->
     <div class="container-fluid bg-secondary p-0">
         <div class="row g-0">
             <div class="col-lg-12 py-6 px-5">
-                <p class="mb-4">At Peopletechsolutions, we provide comprehensive enterprise solutions designed to meet the complex and evolving needs of large organizations. Our solutions help streamline operations, enhance productivity, and drive innovation, ensuring your business remains competitive in today’s fast-paced market.</p>
-                <p class="mb-4">Our ERP solutions integrate various business processes into a single unified system, including finance, HR, manufacturing, supply chain, services, and procurement. This integration provides real-time visibility and control over your operations.</p>
+                <p class="mb-4">
+                    At Peopletechsolutions, we specialize in providing robust cloud and data solutions that empower businesses to innovate, scale, and stay competitive in today’s digital landscape. Our services ensure that your data is secure, accessible, and optimally managed while leveraging the power of the cloud to enhance your operational efficiency.
+                </p>
+                <p class="mb-4">
+                    We offer scalable and secure cloud storage solutions that cater to your data storage needs. Whether you require short-term storage for backups or long-term archival storage, our solutions are designed to provide you with flexibility and reliability.
+                </p>
                 <p class="mb-2"><strong>Benefits:</strong></p>
                 <ul class="mb-4">
-                    <li>Improved operational efficiency</li>
-                    <li>Enhanced data accuracy and decision-making</li>
-                    <li>Streamlined business processes</li>
+                    <li>Scalable storage capacity</li>
+                    <li>Enhanced data security and redundancy</li>
+                    <li>Easy access and retrieval</li>
                 </ul>
                 <a href="#" class="btn btn-primary py-md-3 px-md-5 rounded-pill">Contact us</a>
             </div>
         </div>
     </div>
-    
-    <!-- service End -->
-    
 
-    <!-- Services details Start -->
-    <div class="container-fluid py-6 px-5">
+     <!-- Services details Start -->
+     <div class="container-fluid py-6 px-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
             <h1 class="display-5 mb-0">Why Choose Us for Enterprise Solutions?</h1>
             <hr class="w-25 mx-auto bg-primary">
@@ -266,52 +288,18 @@
         </div>
     </div>
     <!-- Services details End -->
+    
+    
+    
+    
+    
+    
+    
+
+   
 
 
-    <!-- Quote Start -->
-    <div class="container-fluid bg-secondary px-0">
-        <div class="row g-0">
-            <div class="col-lg-6 py-6 px-5">
-                <h1 class="display-5 mb-4">Request A Free Quote</h1>
-                <p class="mb-4">Kasd vero erat ea amet justo no stet, et elitr no dolore no elitr sea kasd et dolor diam tempor. Nonumy sed dolore no eirmod sit nonumy vero lorem amet stet diam at. Ea at lorem sed et, lorem et rebum ut eirmod gubergren, dolor ea duo diam justo dolor diam ipsum dolore stet stet elitr ut. Ipsum amet labore lorem lorem diam magna sea, eos sed dolore elitr.</p>
-                <form>
-                    <div class="row gx-3">
-                        <div class="col-6">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="form-floating-1" placeholder="John Doe">
-                                <label for="form-floating-1">Full Name</label>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="form-floating mb-3">
-                                <input type="email" class="form-control" id="form-floating-2" placeholder="name@example.com">
-                                <label for="form-floating-2">Email address</label>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="form-floating">
-                                <select class="form-select" id="floatingSelect" aria-label="Financial Consultancy">
-                                    <option selected>Financial Consultancy</option>
-                                    <option value="1">Strategy Consultancy</option>
-                                    <option value="2">Tax Consultancy</option>
-                                </select>
-                                <label for="floatingSelect">Select A Service</label>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <button class="btn btn-primary w-100 h-100" type="submit">Request A Quote</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-lg-6" style="min-height: 400px;">
-                <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="img/quote.jpg" style="object-fit: cover;">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Quote End -->
+    
     
 
     <!-- Footer Start -->
